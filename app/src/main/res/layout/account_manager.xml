@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rl_cha">
+
+    <ListView
+        android:layout_above="@+id/rl_add_parent"
+        android:id="@+id/lv_notification2"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <RelativeLayout
+        android:id="@+id/rl_add_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_4dp">
+
+        <EditText
+            android:id="@+id/edt_account"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heightedt_36dp"
+            android:layout_margin="@dimen/margin_4dp"
+            android:layout_toLeftOf="@+id/btn_add"
+            android:background="@color/colorWhite"
+            android:hint="@string/add_manager"
+            android:padding="@dimen/margin_4dp" />
+
+        <EditText
+            android:id="@+id/edt_money"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/heightedt_36dp"
+            android:layout_below="@+id/edt_account"
+            android:layout_margin="@dimen/margin_4dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_toLeftOf="@+id/btn_add"
+            android:background="@color/colorWhite"
+            android:hint="@string/money"
+            android:padding="@dimen/margin_4dp" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_80dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorRed"
+            android:text="@string/add" />
+    </RelativeLayout>
+</RelativeLayout>

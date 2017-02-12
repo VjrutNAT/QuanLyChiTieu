@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QuanLyChiTieu</string>
+    <string name="add_transaction">Thêm Giao Dich</string>
+    <string name="Trading_Statistics">Thống kê giao dich</string>
+    <string name="Account_Manager">Quản Lý Tài Khoản</string>
+    <string name="Introduce">Giới thiệu</string>
+    <string name="Account">Tài Khoản</string>
+    <string name="save">Lưu</string>
+    <string name="save_and_close">Lưu và đóng</string>
+    <string name="Enter_the_amount">Nhập số tiền</string>
+    <string name="Enter_the_reason">Nhập lý do</string>
+    <string name="Transaction_type">Loại giao dịch</string>
+    <string name="add_manager">Thêm danh mục quản lý</string>
+    <string name="add">Thêm</string>
+    <string name="delete">Xóa</string>
+    <string name="close">Đóng</string>
+    <string name="money">Số tiền</string>
+    <string name="date_time">Ngày giờ</string>
+    <string name="content">Nội dung</string>
+    <string name="surplus">Số dư</string>
+    <string name="account">tài khoản</string>
+    <string name="note">Đang không có dữ liệu mời bạn vào quản lý tài khoản để thêm dữ liệu</string>
+</resources>

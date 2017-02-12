@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rl_cha">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/heightedt_36dp"
+        android:layout_marginRight="@dimen/heightedt_36dp"
+        android:layout_marginTop="@dimen/heightRl_200dp"
+        android:background="@drawable/shape_rl">
+
+        <TextView
+            android:id="@+id/tv_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/heightedt_36dp"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="Ten ung dung: Quan Ly Chi  tieu
+Phien ban: 1.1
+Phat trien boi: Le Quang Thang
+Email ho tro: thangle.mi@gmail.com"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/ts_gioiThieu" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_introduce"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorRed"
+            android:text="@string/close"
+            android:textColor="@color/colorWhite" />
+    </RelativeLayout>
+</RelativeLayout>
